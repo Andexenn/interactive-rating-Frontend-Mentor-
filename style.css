@@ -1,0 +1,112 @@
+/** ================= prepare ================= */
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-fill: hsl(25, 97%, 53%);
+}
+
+html{
+    font-size: 62.5%;
+}
+/** ================= common ================= */
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/** ================= container ================= */
+
+.container{
+    max-width: 420px;
+    width: (100% - 60px);
+    max-height: 420px;
+    background-color: hsla(213, 19%, 18%, 0.6);
+    border-radius: 30px;
+    padding: 30px;
+    display: none;
+}
+.active{
+    display: block;
+}
+
+/** ================= rating card ================= */
+
+.star{
+    width: 45px;
+    background-color: hsla(217, 12%, 63%, 0.1);
+    height: 45px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.star img{
+    width: 15px;
+}
+
+.content{
+    margin-bottom: 25px;
+}
+
+.title{
+    font-size: 2.7rem;
+    color: hsl(0, 100%, 100%);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.desc{
+    color: hsl(217, 12%, 63%);
+    line-height: 28px;
+    font-size: 1.4rem;
+}
+
+.rating ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.rating ul li{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: hsla(217, 12%, 63%, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: hsl(0, 100%, 100%);
+    font-size: 1.6rem;
+}
+
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 20px;
+    padding: 13px 20px;
+    color: hsl(216, 12%, 8%);
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
