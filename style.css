@@ -38,7 +38,7 @@ button {
     max-height: 420px;
     background-color: hsla(213, 19%, 18%, 0.6);
     border-radius: 30px;
-    padding: 30px;
+    padding: 32px;
     display: none;
 }
 .active{
@@ -97,7 +97,13 @@ button {
     border-radius: 50%;
     color: hsl(0, 100%, 100%);
     font-size: 1.6rem;
+    cursor: pointer;
 }
+
+.rating ul li:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
 
 .btn{
     background-color: hsl(25, 97%, 53%);
@@ -109,4 +115,42 @@ button {
     letter-spacing: 2px;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color: hsl(0, 100%, 100%);
+}
+
+/** ================= thank you card ================= */
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.judge{
+    text-align: center;
+    color: hsla(25, 97%, 53%, 0.6);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.judge__content{
+    background-color: hsla(217, 12%, 63%, 0.1);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 23px;
+}
+
+.bot_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
 
