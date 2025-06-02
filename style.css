@@ -41,7 +41,7 @@ button {
     padding: 32px;
     display: none;
 }
-.active{
+.container.active{
     display: block;
 }
 
@@ -98,6 +98,11 @@ button {
     color: hsl(0, 100%, 100%);
     font-size: 1.6rem;
     cursor: pointer;
+}
+
+.rating ul li.active{
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
 }
 
 .rating ul li:hover{
