@@ -20,6 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 10px;
 }
 
 input,
@@ -35,7 +36,7 @@ button {
 .container{
     max-width: 420px;
     width: (100% - 60px);
-    max-height: 420px;
+    height: auto;
     background-color: hsla(213, 19%, 18%, 0.6);
     border-radius: 30px;
     padding: 32px;

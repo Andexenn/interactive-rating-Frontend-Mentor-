@@ -1,0 +1,41 @@
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    width: (100% - 40px);
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 15px;
+  }
+
+  /** ================= rating card ================= */
+
+  .star {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+  }
+  .star img {
+    width: 13px;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .desc {
+    color: hsl(217, 12%, 63%);
+    line-height: 28px;
+    font-size: 1.4rem;
+  }
+
+  .rating ul {
+    margin-bottom: 20px;
+  }
+
+  .rating ul li {
+    width: 45px;
+    height: 45px;
+    font-size: 1.4rem;
+  }
+}
